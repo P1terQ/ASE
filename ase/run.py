@@ -26,6 +26,9 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+import sys
+sys.path.append('<YOUR_FBX_PYTHON_BINDING_PATH>/build/Distrib/site-packages/fbx/')
+
 import os
 
 from utils.config import set_np_formatting, set_seed, get_args, parse_sim_params, load_cfg
